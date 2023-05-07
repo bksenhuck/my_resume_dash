@@ -6,8 +6,8 @@ dash.register_page(__name__, path='/', order=0)
 
 # resume sample template from https://zety.com/
 layout = html.Div([
-    dcc.Markdown('# Adam Schroeder', style={'textAlign':'center'}),
-    dcc.Markdown('New York, USA', style={'textAlign': 'center'}),
+    dcc.Markdown('# Brayan Crispiano Ksenhuck', style={'textAlign':'center'}),
+    dcc.Markdown('Sao Paulo-SP, Brasil', style={'textAlign': 'center'}),
 
     dcc.Markdown('### Professional Summary', style={'textAlign': 'center'}),
     html.Hr(),
